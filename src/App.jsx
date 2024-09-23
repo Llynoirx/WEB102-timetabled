@@ -13,8 +13,8 @@ const App = () => {
        the city and see all the sights during your stay.
       </h2>
       <Calendar />
-      
     </div>
+    
   )
 }
 
