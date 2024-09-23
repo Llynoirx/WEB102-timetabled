@@ -1,16 +1,18 @@
 import './App.css';
+import Calendar from './components/Calendar'
 
 const App = () => {
 
   return (
     <div className="App">
       <h1>
-        Andrew Huberman's Routine
+        Itinerary for 7 Days in Chicago 🏙️
       </h1>
       <h2>
-        Huberman is a well-known figure in the productivity space for having a 
-        routine dedicated to optimizing sleep, stress, and mood
+       Welcome to Chicago, Kat! Check out this calendar to get to get to know 
+       the city and see all the sights during your stay.
       </h2>
+      <Calendar />
       
     </div>
   )
